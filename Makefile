@@ -8,3 +8,6 @@ nginx-build:
 
 nginx-run:
 	$(DOCKER_CMD) run --rm -p 8080:8080 $(NGINX_IMAGE)
+
+nuxt-dev:
+	cd nuxt/app && npm run dev -- -o
