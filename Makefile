@@ -11,3 +11,6 @@ nginx-run:
 
 nuxt-dev:
 	cd nuxt/app && npm run dev -- -o
+
+nuxt-upgrade:
+	cd nuxt/app && npm update
