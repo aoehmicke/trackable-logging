@@ -14,3 +14,6 @@ nuxt-dev:
 
 nuxt-upgrade:
 	cd nuxt/app && npm update
+
+symfony-upgrade:
+	cd symfony/service && composer update
